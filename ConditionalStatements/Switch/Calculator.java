@@ -23,10 +23,18 @@ public class Calculator {
                 System.out.println(a*b);
                 break;
             case 4:
-                System.out.println(a/b);
+                if(b==0){
+                    System.out.println("Invalid Division");
+                } else {
+                    System.out.println(a/b);
+                }
                 break;
             case 5:
-                System.out.println(a%b);
+                if(b==0){
+                    System.out.println("Invalid Division");
+                } else {
+                    System.out.println(a%b);
+                }
                 break;
             default:
                 System.out.println("Invalid Choice");
