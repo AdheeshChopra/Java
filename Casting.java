@@ -6,13 +6,14 @@ public class Casting {
 //        int y=x+2;
 //        System.out.println(y);
 
+//        Explicit Casting
 //        double x=1.1;
 //        int y= (int)x+2;
 //        System.out.println(y);
 
 //        Parsing
         String x="1.1";
-        int y= Integer.parseInt(x) +2;
+        double y= Double.parseDouble(x) +2;
         System.out.println(y);
     }
 }
